@@ -114,3 +114,13 @@ The application is built using Streamlit for the web interface and combines seve
 ├── utils.py              # Video processing utilities
 └── attached_assets/      # Documentation and reference materials
 ```
+### Commands to write in the terminal to run this project in VScode :
+
+1. python -m venv venv
+2. venv\Scripts\activate (for windows)
+3. pip install opencv-python numpy streamlit torch torchvision
+4. pip install ultralytics
+5. pip install deep_sort_realtime
+6. streamlit run app.py
+
+Now write localhost:5000 in you browser
